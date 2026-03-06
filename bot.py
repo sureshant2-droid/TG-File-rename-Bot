@@ -5,12 +5,12 @@ from hydrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from motor.motor_asyncio import AsyncIOMotorClient
 
 # --- CONFIGURATION ---
-API_ID = int(os.environ.get("API_ID", 0))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-DB_URL = os.environ.get("DB_URL")
-ADMIN = int(os.environ.get("ADMIN", 0))
-DEVELOPER_USR = os.environ.get("DEVELOPER_USR", "RoyalKrrishna") 
+API_ID = int(os.environ.get("37265315", 0))
+API_HASH = os.environ.get("e5007382c1164a260650e31a6644d473")
+BOT_TOKEN = os.environ.get("8389649989:AAEu2fmVAhD7PBBGtOg4SYVvEy_qT1GnRhE")
+DB_URL = os.environ.get("mongodb+srv://gopi:n,vcxskfhsd,fsiulsdfh@cluster0.jwhwd2j.mongodb.net/?appName=Cluster0")
+ADMIN = int(os.environ.get("37265315", 0))
+DEVELOPER_USR = os.environ.get("DEVELOPER_USR", "Gopi") 
 
 # --- DATABASE SETUP ---
 db_client = AsyncIOMotorClient(DB_URL)
@@ -77,7 +77,7 @@ DETAILED_HELP = (
     "• *Note:* `{filename}` will automatically be replaced with your new file name.\n"
     "• Use `/del_caption` to reset it.\n\n"
     "**3️⃣ BOT SPECIFICATIONS**\n"
-    "✅ **Max Size:** 2GB (Telegram Limit)\n"
+    "✅ **Max Size:** 4GB (Telegram Limit)\n"
     "✅ **Speed:** Ultra-Fast Cloud Server\n"
     "✅ **Safety:** Fully Encrypted Processing\n"
     "✅ **Database:** MongoDB Cloud Secured\n\n"
